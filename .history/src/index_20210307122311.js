@@ -1,14 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
+import Card from './card'
 import reportWebVitals from './reportWebVitals';
 import 'tachyons';
-import App from './App';
-
 
 ReactDOM.render(
-   <App/>,
+
+    <Card/>,
   document.getElementById('root')
 );
 reportWebVitals();
- 

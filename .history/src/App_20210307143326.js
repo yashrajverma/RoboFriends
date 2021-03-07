@@ -35,14 +35,14 @@ class App extends React.Component {
       return (
         <div className="tc">
           <h1 className="bg-light-blue pa3 ">RoboFriends</h1>
-         
+          <div>
             <a
               href="https://yashrajverma.github.io/BackgroundGenerator/"
               target="blank"
             >
               Check Out my another work here
             </a>
-         
+          </div>
           <SearchBox searchChange={this.onSearchChange} />
           <Scroll>
             <CardList robots={filteredrobots} />
